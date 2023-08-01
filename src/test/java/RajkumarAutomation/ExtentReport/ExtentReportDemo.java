@@ -50,5 +50,20 @@ public class ExtentReportDemo {
 		
 	}
 	
+	@Test
+	public void iitialdemo6() {
+		
+		WebDriverManager.chromedriver().setup();
+		WebDriver driver=new ChromeDriver();
+		driver.get("https://rahulshettyacademy.com");
+		System.out.println(driver.getTitle());
+		System.out.println(driver.getTitle());
+		System.out.println(driver.getTitle());
+		System.out.println(driver.getTitle());
+		System.out.println(driver.getTitle());
+		System.out.println(driver.getTitle());
+		
+	}
+	
 
 }
